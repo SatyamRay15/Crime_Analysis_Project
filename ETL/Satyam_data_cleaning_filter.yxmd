@@ -1,0 +1,197 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.1">
+  <Nodes>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" FileFormat="18">odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Ey_Project_Crime_Analysis;Data Source=SATYAM-PERSONAL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=SATYAM-PERSONAL;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo."crime_by_district"</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>False</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Source=SATYAM-PERSONAL\SQLEXPRESS
+Catalog=Ey_Project_Crime_Analysis
+Query=dbo."crime_by_district"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="STATE_UT" size="50" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Ey_Project_Crime_Analysis;Data Source=SATYAM-PERSONAL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=SATYAM-PERSONAL;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;crime_by_district&quot;" type="V_WString" />
+            <Field name="DISTRICT" size="50" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Ey_Project_Crime_Analysis;Data Source=SATYAM-PERSONAL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=SATYAM-PERSONAL;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;crime_by_district&quot;" type="V_WString" />
+            <Field name="Year" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Ey_Project_Crime_Analysis;Data Source=SATYAM-PERSONAL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=SATYAM-PERSONAL;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;crime_by_district&quot;" type="Int16" />
+            <Field name="Murder" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Ey_Project_Crime_Analysis;Data Source=SATYAM-PERSONAL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=SATYAM-PERSONAL;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;crime_by_district&quot;" type="Int32" />
+            <Field name="Assault_on_women" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Ey_Project_Crime_Analysis;Data Source=SATYAM-PERSONAL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=SATYAM-PERSONAL;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;crime_by_district&quot;" type="Int32" />
+            <Field name="Kidnapping_and_Abduction" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Ey_Project_Crime_Analysis;Data Source=SATYAM-PERSONAL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=SATYAM-PERSONAL;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;crime_by_district&quot;" type="Int32" />
+            <Field name="Dacoity" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Ey_Project_Crime_Analysis;Data Source=SATYAM-PERSONAL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=SATYAM-PERSONAL;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;crime_by_district&quot;" type="Int32" />
+            <Field name="Robbery" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Ey_Project_Crime_Analysis;Data Source=SATYAM-PERSONAL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=SATYAM-PERSONAL;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;crime_by_district&quot;" type="Int32" />
+            <Field name="Arson" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Ey_Project_Crime_Analysis;Data Source=SATYAM-PERSONAL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=SATYAM-PERSONAL;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;crime_by_district&quot;" type="Int32" />
+            <Field name="Hurt" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Ey_Project_Crime_Analysis;Data Source=SATYAM-PERSONAL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=SATYAM-PERSONAL;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;crime_by_district&quot;" type="Int16" />
+            <Field name="Prevention_of_atrocities_POA_Act" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Ey_Project_Crime_Analysis;Data Source=SATYAM-PERSONAL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=SATYAM-PERSONAL;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;crime_by_district&quot;" type="Int16" />
+            <Field name="Protection_of_Civil_Rights_PCR_Act" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Ey_Project_Crime_Analysis;Data Source=SATYAM-PERSONAL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=SATYAM-PERSONAL;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;crime_by_district&quot;" type="Int16" />
+            <Field name="Other_Crimes_Against_SCs" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Ey_Project_Crime_Analysis;Data Source=SATYAM-PERSONAL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=SATYAM-PERSONAL;Use Encryption for Data=False;Tag with column collation when possible=False|||dbo.&quot;crime_by_district&quot;" type="Int16" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings>
+        <Position x="162" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">True</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"STATE_UT","DISTRICT","Year","Murder","Assault_on_women","Kidnapping_and_Abduction","Dacoity","Robbery","Arson","Hurt","Prevention_of_atrocities_POA_Act","Protection_of_Civil_Rights_PCR_Act","Other_Crimes_Against_SCs"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="282" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="18">odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Ey_Project_Crime_Analysis;Data Source=SATYAM-PERSONAL\SQLEXPRESS;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=SATYAM-PERSONAL;Use Encryption for Data=False;Tag with column collation when possible=False|||crime_analysis</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <TransactionSize>0</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Source=SATYAM-PERSONAL\SQLEXPRESS
+Catalog=Ey_Project_Crime_Analysis
+Query=crime_analysis</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="282" y="6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\SATYAM~1\AppData\Local\Temp\Engine_7136_c7e4318db4abb142915299faf1f46eed_\Engine_7136_cff8d6c3322fe04f9dea02d50d578019~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output26" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output26" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Satyam_data_cleaning_filter</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="74b2d378-f9bd-407d-9ae2-ad39df3a63e8" />
+      <Telemetry>
+        <PreviousWorkflowId value="36e49ba3-0911-4cb2-a578-52645fd5acc1" />
+        <OriginWorkflowId value="36e49ba3-0911-4cb2-a578-52645fd5acc1" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
